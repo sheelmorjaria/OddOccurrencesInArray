@@ -14,9 +14,9 @@ public class OddOccurrencesInArray {
 class Solution {
         public int solution(int[] A) {
         int result = 0;
-        for (int i =0;i<A.length;i++) {
+        for (int i :A ) {
 
-            result ^= A[i];
+            result ^= i;
         }
         return result;
         }
